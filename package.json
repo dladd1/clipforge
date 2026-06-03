@@ -4,7 +4,8 @@
   "description": "ClipForge video processing backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "pip install yt-dlp"
   },
   "dependencies": {
     "express": "^4.18.2",
