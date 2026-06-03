@@ -156,7 +156,7 @@ function toSec(t) {
   return Number(t)||0;
 }
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log('\n⚡ ClipForge backend running on port', PORT);
   Promise.all([checkTool('yt-dlp'), checkTool('ffmpeg')]).then(([y,f]) => {
